@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Coins</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="team">
+            <h2>Towsif</h2>
+            <div class="buttons">
+                <button onclick="incrementCoins('team1')">Increment Coins</button>
+                <button onclick="decrementCoins('team1')">Decrement Coins</button>
+            </div>
+            <p id="team1Coins">1000</p>
+        </div>
+        <div class="team">
+            <h2>Tamim</h2>
+            <div class="buttons">
+                <button onclick="incrementCoins('team2')">Increment Coins</button>
+                <button onclick="decrementCoins('team2')">Decrement Coins</button>
+            </div>
+            <p id="team2Coins">1000</p>
+        </div>
+        <div class="team">
+            <h2>Shanto</h2>
+            <div class="buttons">
+                <button onclick="incrementCoins('team3')">Increment Coins</button>
+                <button onclick="decrementCoins('team3')">Decrement Coins</button>
+            </div>
+            <p id="team3Coins">1000</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
